@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'GeoSlab703 Md BT';
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+input:focus,textarea:focus,button:focus{
+    outline: none;
+}
+
+body{
+    color: #ccc;
+}
+
+h2{
+    color: #888;
+}
+
+p{
+    color: #555;
+}
+
+/* section-padding styling start */
+
+.video-area{
+    position: relative;
+    padding: 100px 0;
+    margin: 50px 0;
+}
+
+.video-area-bg{
+    background-image: url('../images/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ddd;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 43%;
+    box-shadow: 0px 0px 10px 10px #ccc;
+}
+
+.video-area-btn{
+    position: absolute;
+    right: -44px;
+    top: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: #2FB671;
+    display: inline-block;
+    color: #fff;
+    font-size: 30px;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: -50px;
+}
+
+/* li before icon setup here now */
+.check-icons li:before{
+   font-family: "fontAwesome";
+    content: "\f058";
+}
+
+.check-icons li {
+    color: #e9e9e9;
+}
+
+.check-icons li {
+    color: #999;
+    font-size: 16px;
+    padding-left: 30px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.check-icons li:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #2FB671;
+}
